@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Validate title of the landing page",
+        "description": "",
+        "id": "landing-page-features;validate-title-of-the-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11362744900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Browser opened and url entered",
+            "match": {
+              "location": "LandingPageTest.browser_opened_and_url_entered()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16529700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Landing page is loaded and I validate the title",
+            "match": {
+              "location": "LandingPageTest.Landing_page_is_loaded_and_I_validate_the_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 698225300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I closed the browser",
+            "match": {
+              "location": "LandingPageTest.I_closed_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@landingPage"
+          },
+          {
+            "name": "@landingPageTitle"
+          }
+        ]
+      }
+    ],
+    "name": "Landing page features",
+    "description": "  This feature file contains landing page features",
+    "id": "landing-page-features",
+    "keyword": "Feature",
+    "uri": "features/LandingPage.feature",
+    "tags": [
+      {
+        "name": "@landingPage",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
